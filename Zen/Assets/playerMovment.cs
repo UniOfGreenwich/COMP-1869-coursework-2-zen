@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class SimpleFPRigidbodyController : MonoBehaviour
+public class playerMovment : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 5f;

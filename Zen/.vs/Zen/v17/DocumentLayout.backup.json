@@ -1,10 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jg6582v\\Desktop\\COMP-1869_FinalYearGroupProject\\Zen\\",
+  "WorkspaceRootPath": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|c:\\users\\jg6582v\\desktop\\comp-1869_finalyeargroupproject\\zen\\assets\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|l:\\uni\\uni_y3_p1\\comp-1869-coursework-2-zen\\zen\\assets\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\assets\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Elie\\ElieScript\\DramaticLightReveal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +21,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "playerMovment.cs",
-              "DocumentMoniker": "C:\\Users\\jg6582v\\Desktop\\COMP-1869_FinalYearGroupProject\\Zen\\Assets\\playerMovment.cs",
-              "RelativeDocumentMoniker": "Assets\\playerMovment.cs",
-              "ToolTip": "C:\\Users\\jg6582v\\Desktop\\COMP-1869_FinalYearGroupProject\\Zen\\Assets\\playerMovment.cs",
-              "RelativeToolTip": "Assets\\playerMovment.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAQwJIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DramaticLightReveal.cs",
+              "DocumentMoniker": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Elie\\ElieScript\\DramaticLightReveal.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Elie\\ElieScript\\DramaticLightReveal.cs",
+              "ToolTip": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Elie\\ElieScript\\DramaticLightReveal.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Elie\\ElieScript\\DramaticLightReveal.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T08:39:04.122Z",
+              "WhenOpened": "2025-10-24T09:33:31.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerIntoraction.cs",
+              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\PlayerIntoraction.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerIntoraction.cs",
+              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\PlayerIntoraction.cs*",
+              "RelativeToolTip": "Assets\\PlayerIntoraction.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:50:45.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "playerMovment.cs",
+              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\playerMovment.cs",
+              "RelativeDocumentMoniker": "Assets\\playerMovment.cs",
+              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\playerMovment.cs",
+              "RelativeToolTip": "Assets\\playerMovment.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAqwGwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:39:04.122Z",
+              "EditorCaption": ""
             }
           ]
         }

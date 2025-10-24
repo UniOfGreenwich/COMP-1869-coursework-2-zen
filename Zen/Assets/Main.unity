@@ -510,7 +510,7 @@ MonoBehaviour:
   pitchMax: 89
   rightStickHorizontalAxis: RightStickHorizontal
   rightStickVerticalAxis: RightStickVertical
-  controllerDeadzone: 0.18
+  controllerDeadzone: 0.241
   controllerLookSmoothing: 8
   mouseLookSmoothing: 0
   debugRightStickValues: 0
