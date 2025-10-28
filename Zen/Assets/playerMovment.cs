@@ -108,6 +108,8 @@ public class playerMovment : MonoBehaviour
         currentYaw += controllerYawDelta;
         currentPitch += controllerPitchDelta;
 
+      
+
         // Clamp pitch and apply camera rotation
         currentPitch = Mathf.Clamp(currentPitch, pitchMin, pitchMax);
         if (playerCamera != null)

@@ -3,6 +3,7 @@ using UnityEngine;
 public class statue : MonoBehaviour
 {
     public bool haveBeenSelected;
+    public Vector3 sittingSpot;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
