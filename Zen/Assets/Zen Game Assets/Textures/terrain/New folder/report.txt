@@ -1,0 +1,44 @@
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.2.6.0 ──
+
+                                                                                                 
+          Filename:  │ E:/University/Year 3/COMP-1869-coursework-2-zen/gaya/eenviroment.terrain  
+    Build Location:  │ E:\University\Year 3\COMP-1869-coursework-2-zen\gaya\terrain\New folder   
+        Build Type:  │ Standard                                                                  
+  Build Resolution:  │ 1024 × 1024                                                               
+     Build Profile:  │ None / Last Saved Settings                                                
+             Nodes:  │ 23 to build                                                               
+                     │ 01 to export                                                              
+                                                                                                 
+546 - Mesher - failed!
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.2.6.0 ──
+
+                                                                                                 
+          Filename:  │ E:/University/Year 3/COMP-1869-coursework-2-zen/gaya/eenviroment.terrain  
+    Build Location:  │ E:\University\Year 3\COMP-1869-coursework-2-zen\gaya\terrain\New folder   
+        Build Type:  │ Standard                                                                  
+  Build Resolution:  │ 1024 × 1024                                                               
+     Build Profile:  │ None / Last Saved Settings                                                
+             Nodes:  │ 23 to build                                                               
+                     │ 01 to export                                                              
+                                                                                                 
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────── Build Report ──
+
+              Build Results                                Statistics                
+                                                                                     
+          Result: │ Success                  MultiFractal │ 0:00:00.651              
+      Resolution: │ 1024                          Erosion │ 0:00:00.809              
+      Node Count: │ 23                          Rockscape │ 0:00:04.296              
+      Start Time: │ 10/28/2025 21:13:00              Snow │ 0:00:01.071              
+        End Time: │ 10/28/2025 21:13:12           Erosion │ 0:00:00.774              
+        Duration: │ 00:00:12.2716841              Volcano │ 0:00:00.448              
+  Non-Build Time: │ 00:00:00.1566840               Rivers │ 0:00:01.862              
+                                                     Lake │ 0:00:00.994              
+                                              TextureBase │ 0:00:01.023              
+                                                          │                          
+                                                  Fastest │ Trees @ 0:00:00          
+                                                  Slowest │ Rockscape @ 0:00:04.296  
+                                                                                     
+                                             * nodes that took <100ms are excluded.  
