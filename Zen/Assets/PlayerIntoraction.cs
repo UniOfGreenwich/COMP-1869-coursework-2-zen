@@ -1,10 +1,11 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class PlayerIntoraction : MonoBehaviour
 {
-    public GameObject UI_Einteract, BreethBar, currentStachue;
+    public GameObject UI_Einteract, BreethBar, currentStachue, hand;
     bool E_flashActive, sat;
     public float camSpeed, startTime;
     void Start()
@@ -20,15 +21,26 @@ public class PlayerIntoraction : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "statue" && E_flashActive == false && !other.GetComponent<statue>().haveBeenSelected)
+        if ((other.gameObject.tag == "statue" && E_flashActive == false && !other.GetComponent<statue>().haveBeenSelected) && hand.GetComponentInChildren<statue>() == null)
         {
             StartCoroutine(E_flash());
             currentStachue = other.gameObject;
         }
 
-        if (Input.GetKey(KeyCode.E) && !other.GetComponent<statue>().haveBeenSelected) 
-        { StartCoroutine(E_flashSelected()); 
-            other.GetComponent<statue>().haveBeenSelected = true; }
+        if ((Input.GetKey(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0)) && !other.GetComponent<statue>().haveBeenSelected && hand.GetComponentInChildren<statue>() == null)
+        { 
+            StartCoroutine(E_flashSelected()); 
+            other.GetComponent<statue>().haveBeenSelected = true; 
+        }
+
+    }
+    private void Update()
+    {
+        if(Input.GetKey(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0) && hand.GetComponentInChildren<statue>() != null)
+        {
+            print("hi");
+            currentStachue.transform.SetParent(null);
+        }
     }
 
     private IEnumerator E_flash()
@@ -51,21 +63,32 @@ public class PlayerIntoraction : MonoBehaviour
     }
 
      private IEnumerator StatueSit()
-    {
-        GetComponent<playerMovment>().enabled = false;
-        yield return new WaitForSeconds(1);
-        startTime = Time.time;
-        sat = true;
-        GetComponent<CapsuleCollider>().enabled = false;  
-        GetComponent<Rigidbody>().useGravity = false;  
-        BreethBar.SetActive(true);
-        yield return new WaitForSeconds(9);
-        GetComponent<CapsuleCollider>().enabled = true;  
-        GetComponent<Rigidbody>().useGravity = true;  
-        sat = false;
-        Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y + 0.45f,transform.position.z);
-        BreethBar.SetActive(false);
-        GetComponent<playerMovment>().enabled = true;
+     {
+       
+            GetComponent<playerMovment>().enabled = false;
+            yield return new WaitForSeconds(1);
+            startTime = Time.time;
+            sat = true;
+            GetComponent<CapsuleCollider>().enabled = false;  
+            GetComponent<Rigidbody>().useGravity = false;  
+            yield return new WaitForSeconds(9);
+
+            BreethBar.SetActive(true);
+
+            GetComponent<CapsuleCollider>().enabled = true;  
+            GetComponent<Rigidbody>().useGravity = true;  
+
+            UI_Einteract.GetComponent<Image>().color = Color.white;
+            sat = false;
+
+            Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y + 0.45f,transform.position.z);
+            BreethBar.SetActive(false);
+            GetComponent<playerMovment>().enabled = true;
+
+            currentStachue.transform.SetParent(hand.transform);
+            currentStachue.transform.localPosition = Vector3.zero;
+            currentStachue.transform.localRotation = Quaternion.identity;
+        
     }
 
     void LerpPositionToSitingSpot()
