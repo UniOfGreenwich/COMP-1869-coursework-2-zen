@@ -3,7 +3,9 @@ using UnityEngine;
 public class GameStates : MonoBehaviour
 {
     public static GameStates Instance;
+    public GameObject mainLight;
     public int amountodStatues;
+    float light = 10f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,8 +22,12 @@ public class GameStates : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        if(amountodStatues >= 5)
+        {
+            mainLight.GetComponent<Light>().intensity += light;
+            light = light * 1.1f;
+        }
     }
 }
