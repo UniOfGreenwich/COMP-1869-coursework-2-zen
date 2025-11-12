@@ -19791,8 +19791,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1539070649512036765, guid: bdff1ece2584db84b9c5e2f3965b4d09, type: 3}
+      propertyPath: m_Intensity
+      value: 66335.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539070649512036765, guid: bdff1ece2584db84b9c5e2f3965b4d09, type: 3}
       propertyPath: m_ColorTemperature
-      value: 20000
+      value: 5756
       objectReference: {fileID: 0}
     - target: {fileID: 2339486272390691851, guid: bdff1ece2584db84b9c5e2f3965b4d09, type: 3}
       propertyPath: m_Name
