@@ -62,20 +62,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T19:49:29.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AudioLoudnessDetector.cs",
-              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\AudioLoudnessDetector.cs",
-              "RelativeDocumentMoniker": "Assets\\AudioLoudnessDetector.cs",
-              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\AudioLoudnessDetector.cs",
-              "RelativeToolTip": "Assets\\AudioLoudnessDetector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T15:46:50.808Z"
+              "WhenOpened": "2025-11-03T19:49:29.758Z"
             },
             {
               "$type": "Document",
@@ -88,6 +75,18 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T19:49:43.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AudioLoudnessDetector.cs",
+              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\AudioLoudnessDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\AudioLoudnessDetector.cs",
+              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\AudioLoudnessDetector.cs",
+              "RelativeToolTip": "Assets\\AudioLoudnessDetector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:46:50.808Z"
             },
             {
               "$type": "Bookmark",

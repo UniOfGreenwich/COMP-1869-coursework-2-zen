@@ -14,8 +14,8 @@ public class AudioLoudnessDetector : MonoBehaviour
         
     }
     
-    public float GetLoudnessFromClip(int clipPosition, AudioClip clip)
-    {
+    //public float GetLoudnessFromClip(int clipPosition, AudioClip clip)
+    //{
 
-    }
+    //}
 }
