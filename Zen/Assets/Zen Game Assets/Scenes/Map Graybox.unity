@@ -30173,6 +30173,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
+--- !u!4 &764937387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4078153134694138003, guid: 047d948563bb6a64083870a86fa41aa6, type: 3}
+  m_PrefabInstance: {fileID: 2092232090}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &767642282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40298,6 +40303,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f0bc2fa9d7376e4aa6dba84e43ef9b9, type: 3}
+--- !u!1 &1219014369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1219014370}
+  - component: {fileID: 1219014371}
+  m_Layer: 0
+  m_Name: Wind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1219014370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219014369}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 764937387}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1219014371
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219014369}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 2
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 2
+  m_WindPulseFrequency: 1
 --- !u!1 &1240390733
 GameObject:
   m_ObjectHideFlags: 0
@@ -50513,9 +50564,9 @@ MonoBehaviour:
     detailScattermode: 0
     grassDistance: 16.28
     grassDensity: 0.35
-    windStrength: 0.77
+    windStrength: 1
     windSpeed: 2.87
-    windFrequency: 2.74
+    windFrequency: 4.18
     wintTint: {r: 1, g: 1, b: 1, a: 1}
   cellSize: 64
   cellDivisions: 4
@@ -51965,7 +52016,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4078153134694138003, guid: 047d948563bb6a64083870a86fa41aa6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1219014370}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 047d948563bb6a64083870a86fa41aa6, type: 3}
 --- !u!1 &2096442808
