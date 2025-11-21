@@ -3,15 +3,7 @@
   "WorkspaceRootPath": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77E7CB9B-0C07-33D9-83AB-5064FDC6C6B0}|ExternAttributes.Editor.csproj|l:\\uni\\uni_y3_p1\\comp-1869-coursework-2-zen\\zen\\assets\\flatkit\\[render pipeline] urp\\editorattributes\\editor\\utility\\propertyutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E7CB9B-0C07-33D9-83AB-5064FDC6C6B0}|ExternAttributes.Editor.csproj|solutionrelative:assets\\flatkit\\[render pipeline] urp\\editorattributes\\editor\\utility\\propertyutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\assets\\audioloudnessdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\audioloudnessdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\assets\\zen game assets\\scripts\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|l:\\uni\\uni_y3_p1\\comp-1869-coursework-2-zen\\zen\\assets\\zen game assets\\scripts\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,8 +18,8 @@
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GameStates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|l:\\uni\\uni_y3_p1\\comp-1869-coursework-2-zen\\zen\\assets\\gamestates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\gamestates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,36 +29,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PropertyUtility.cs",
-              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\FlatKit\\[Render Pipeline] URP\\EditorAttributes\\Editor\\Utility\\PropertyUtility.cs",
-              "RelativeDocumentMoniker": "Assets\\FlatKit\\[Render Pipeline] URP\\EditorAttributes\\Editor\\Utility\\PropertyUtility.cs",
-              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\FlatKit\\[Render Pipeline] URP\\EditorAttributes\\Editor\\Utility\\PropertyUtility.cs",
-              "RelativeToolTip": "Assets\\FlatKit\\[Render Pipeline] URP\\EditorAttributes\\Editor\\Utility\\PropertyUtility.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAwwJcAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T13:22:51.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GameRules.cs",
-              "DocumentMoniker": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
-              "ToolTip": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T19:49:29.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "GameStates.cs",
               "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs",
               "RelativeDocumentMoniker": "Assets\\GameStates.cs",
@@ -78,23 +45,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AudioLoudnessDetector.cs",
-              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\AudioLoudnessDetector.cs",
-              "RelativeDocumentMoniker": "Assets\\AudioLoudnessDetector.cs",
-              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\AudioLoudnessDetector.cs",
-              "RelativeToolTip": "Assets\\AudioLoudnessDetector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GameRules.cs",
+              "DocumentMoniker": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
+              "ToolTip": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T15:46:50.808Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-11-03T19:49:29.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "playerMovment.cs",
               "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
               "RelativeDocumentMoniker": "Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
@@ -106,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "statue.cs",
               "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\statue.cs",
               "RelativeDocumentMoniker": "Assets\\Zen Game Assets\\Scripts\\statue.cs",
@@ -118,15 +82,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerIntoraction.cs",
               "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
               "RelativeDocumentMoniker": "Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
               "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
               "RelativeToolTip": "Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwIgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAA4wIgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T18:38:55.901Z"
+              "WhenOpened": "2025-11-03T18:38:55.901Z",
+              "EditorCaption": ""
             }
           ]
         }
