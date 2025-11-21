@@ -81,13 +81,19 @@ public class playerMovment : MonoBehaviour
 
         currentPitch = Mathf.Clamp(currentPitch, pitchMin, pitchMax);
         playerCamera.transform.localRotation = Quaternion.Euler(currentPitch, 0f, 0f);
+
+        if(velocityInput != Vector3.zero)
+        {
+            Camera.main.gameObject.GetComponent<cameraViewbob>().isWalking = true;
+        }
+        else { Camera.main.gameObject.GetComponent<cameraViewbob>().isWalking = false; }
     }
 
     void FixedUpdate()
     {
         Vector3 newPosition = rb.position + velocityInput * Time.fixedDeltaTime;
         rb.MovePosition(newPosition);
-
+        
         Quaternion targetRotation = Quaternion.Euler(0f, currentYaw, 0f);
         rb.MoveRotation(targetRotation);
     }

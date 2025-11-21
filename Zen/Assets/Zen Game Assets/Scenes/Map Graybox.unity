@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35844618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4246492918786848530, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
+  m_PrefabInstance: {fileID: 761992893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &36168107
 GameObject:
   m_ObjectHideFlags: 0
@@ -8891,6 +8896,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3589620e2bef174b9df977ef77375ca, type: 3}
+--- !u!1 &56222573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8825246082460916760, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
+  m_PrefabInstance: {fileID: 761992893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &56222580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56222573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e79db60e61aa9d4b8095c827a828b10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWalking: 0
+  player: {fileID: 35844618}
+  bobIntevcity: 0.01
+  minHight: 0.75
 --- !u!1001 &96274254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30134,11 +30160,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5655608708404937379, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.69
+      value: 16.105
       objectReference: {fileID: 0}
     - target: {fileID: 5655608708404937379, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 539.45
+      value: 541.332
       objectReference: {fileID: 0}
     - target: {fileID: 5655608708404937379, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30171,7 +30197,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8825246082460916760, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 56222580}
   m_SourcePrefab: {fileID: 100100000, guid: 942bcaf9d4d8e074d868622d31989fa7, type: 3}
 --- !u!4 &764937387 stripped
 Transform:
