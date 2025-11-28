@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Audio_MicDetector : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Audio_MicDetector : MonoBehaviour
     string device;
     int window = 256;
     public float averageWaitTimer, averageVol,framecount, vol;
+    public GameObject breathSlider;
+
 
     void Start()
     {
@@ -18,15 +21,14 @@ public class Audio_MicDetector : MonoBehaviour
     void Update()
     {
          vol = GetVolume();
+        averageVol = averageVol + vol;
+        breathSlider.GetComponent<Slider>().value = averageWaitTimer;
     }
 
     private void FixedUpdate()
     {
         if (averageWaitTimer <= 0) 
         {
-            averageVol = averageVol / framecount;
-            
-            Debug.Log((averageVol*10));
             averageWaitTimer = 3;
             framecount = 0;
             vol = 0;
