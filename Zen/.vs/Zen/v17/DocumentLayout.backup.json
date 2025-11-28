@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.high-definition@c8f7abac6e28\\Runtime\\Material\\Lit\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|c:\\users\\davide\\documents\\comp-1869-coursework-2-zen\\zen\\assets\\zen game assets\\scripts\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|C:\\Users\\Davide\\Documents\\COMP-1869-coursework-2-zen\\Zen\\assets\\zen game assets\\scripts\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -101,8 +101,7 @@
               "RelativeToolTip": "Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAcwIgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T18:38:55.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T18:38:55.901Z"
             }
           ]
         }
