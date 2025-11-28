@@ -85,6 +85,7 @@ public class PlayerIntoraction : MonoBehaviour
         yield return new WaitForSeconds(9);
 
         BreethBar.SetActive(true);
+        currentStachue.GetComponent<BoxCollider>().enabled = false;
 
         GetComponent<CapsuleCollider>().enabled = true;
         GetComponent<Rigidbody>().useGravity = true;
@@ -139,6 +140,7 @@ public class PlayerIntoraction : MonoBehaviour
             currentMissingSpot.gameObject.SetActive(false);
             GameStates.Instance.amountodStatues++;
             inMissing = false;
+            currentStachue.GetComponent<BoxCollider>().enabled = true;
         }
     }
 }
