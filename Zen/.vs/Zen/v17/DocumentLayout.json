@@ -1,13 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\",
+  "WorkspaceRootPath": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|l:\\uni year 3\\finalyeargroupproject\\gitkraken\\comp-1869_finalyeargroupproject\\comp-1869-coursework-2-zen\\zen\\assets\\ui\\gui\\pausemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\gui\\pausemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|l:\\uni\\uni_y3_p1\\comp-1869-coursework-2-zen\\zen\\assets\\viewbob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\viewbob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|l:\\uni year 3\\finalyeargroupproject\\gitkraken\\comp-1869_finalyeargroupproject\\comp-1869-coursework-2-zen\\zen\\assets\\ui\\mainmenuui\\mainmenuscript\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,15 +19,15 @@
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\playerintoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\assets\\zen game assets\\scripts\\statue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\assets\\zen game assets\\scripts\\statue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\statue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\assets\\zen game assets\\scripts\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GameStates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,17 +62,31 @@
               "RelativeToolTip": "Assets\\UI\\MainMenuUI\\MainMenuScript\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T15:13:58.596Z",
+              "WhenOpened": "2025-11-28T18:03:42.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ViewBob.cs",
+              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\ViewBob.cs",
+              "RelativeDocumentMoniker": "Assets\\ViewBob.cs",
+              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\ViewBob.cs",
+              "RelativeToolTip": "Assets\\ViewBob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T12:28:29.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameStates.cs",
               "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs",
+              "RelativeDocumentMoniker": "Assets\\GameStates.cs",
               "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs",
+              "RelativeToolTip": "Assets\\GameStates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T19:49:43.227Z"
             },
@@ -80,21 +95,23 @@
               "DocumentIndex": 6,
               "Title": "GameRules.cs",
               "DocumentMoniker": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
               "ToolTip": "L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T19:49:29.758Z"
+              "WhenOpened": "2025-11-03T19:49:29.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "playerMovment.cs",
-              "DocumentMoniker": "L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
+              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
               "RelativeDocumentMoniker": "Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
-              "ToolTip": "L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
+              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
               "RelativeToolTip": "Assets\\Zen Game Assets\\Scripts\\playerMovment.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T19:14:23.142Z"
             },
@@ -102,9 +119,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "statue.cs",
-              "DocumentMoniker": "L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\statue.cs",
+              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\statue.cs",
               "RelativeDocumentMoniker": "Assets\\Zen Game Assets\\Scripts\\statue.cs",
-              "ToolTip": "L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\statue.cs",
+              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\statue.cs",
               "RelativeToolTip": "Assets\\Zen Game Assets\\Scripts\\statue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,11 +131,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PlayerIntoraction.cs",
-              "DocumentMoniker": "L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
+              "DocumentMoniker": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
               "RelativeDocumentMoniker": "Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
-              "ToolTip": "L:\\Uni Year 3\\FinalYearGroupProject\\GitKraken\\COMP-1869_FinalYearGroupProject\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
+              "ToolTip": "L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
               "RelativeToolTip": "Assets\\Zen Game Assets\\Scripts\\PlayerIntoraction.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwIgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T18:38:55.901Z"
             }
