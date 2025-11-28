@@ -28,7 +28,7 @@ public class playerMovment : MonoBehaviour
     Rigidbody rb;
     float currentYaw = 0f;
     float currentPitch = 0f;
-    Vector3 velocityInput = Vector3.zero;
+    public Vector3 velocityInput = Vector3.zero;
 
 
     Vector2 smoothedControllerStick = Vector2.zero;
