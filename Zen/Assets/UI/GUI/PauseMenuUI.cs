@@ -29,6 +29,7 @@ public class PauseMenuUI : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
+   
     
     public void QuitGame()
     {
