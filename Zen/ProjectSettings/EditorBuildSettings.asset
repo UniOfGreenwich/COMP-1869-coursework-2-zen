@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Main.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 1
+    path: Assets/UI/MainMenuUI/MainMenu.unity
+    guid: d5af925c0f7c841438738d2bc1c9b05d
   - enabled: 1
     path: Assets/Zen Game Assets/Scenes/Map Graybox.unity
     guid: 057373577b80ac34985dc04c3f5ee609
