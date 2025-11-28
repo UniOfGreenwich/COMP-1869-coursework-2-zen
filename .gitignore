@@ -10,3 +10,7 @@ Zen/.vs/Zen/CopilotIndices/17.14.1518.61961/CodeChunks.db-wal
 Zen/.vs/Zen/CopilotIndices/17.14.1518.61961/SemanticSymbols.db
 
 Zen/.vs/Zen/CopilotIndices/17.14.1518.61961/SemanticSymbols.db-wal
+
+*.db-wal
+
+*.db
