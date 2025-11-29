@@ -21,13 +21,13 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.24
+    m_Value: 0.62
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0.121
+    m_Value: 0.135
   radius:
     m_OverrideState: 0
-    m_Value: 2
+    m_Value: 1.47
   spatialBilateralAggressiveness:
     m_OverrideState: 0
     m_Value: 0.15
@@ -96,13 +96,13 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 2
   useFullACES:
     m_OverrideState: 0
     m_Value: 0
   toeStrength:
     m_OverrideState: 1
-    m_Value: 0.55
+    m_Value: 0.484
   toeLength:
     m_OverrideState: 1
     m_Value: 0.68
@@ -272,22 +272,22 @@ MonoBehaviour:
     m_Value: 180.8
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 407
+    m_Value: 300.1
   enableVolumetricFog:
     m_OverrideState: 0
     m_Value: 0
   albedo:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 0
     m_Value: 1
   depthExtent:
-    m_OverrideState: 0
-    m_Value: 64
-  denoisingMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2
+  denoisingMode:
+    m_OverrideState: 1
+    m_Value: 3
   anisotropy:
     m_OverrideState: 0
     m_Value: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0
+          time: 0.04296875
           value: 0
           inSlope: 0.25753954
           outSlope: 0.25753954
@@ -528,7 +528,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-  m_SelectedCurve: 0
+  m_SelectedCurve: 3
 --- !u!114 &79721172238526809
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -556,7 +556,7 @@ MonoBehaviour:
     m_Value: 0.25
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.7953893, g: 0.8018868, b: 0.73001957, a: 1}
+    m_Value: {r: 0.50222504, g: 0.50785065, b: 0.509434, a: 1}
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -856,7 +856,7 @@ MonoBehaviour:
     m_Value: {fileID: 8900000, guid: c1473a09822798a41a9cfa11f2721db6, type: 3}
   distortionMode:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 2
   flowmap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -864,10 +864,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   scrollOrientation:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
-      mode: 1
-      customValue: 0
+      mode: 0
+      customValue: 103
       additiveValue: 0
       multiplyValue: 1
   scrollSpeed:
