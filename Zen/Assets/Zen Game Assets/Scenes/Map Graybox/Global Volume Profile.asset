@@ -96,19 +96,19 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 4
   useFullACES:
     m_OverrideState: 0
     m_Value: 0
   toeStrength:
     m_OverrideState: 1
-    m_Value: 0.484
+    m_Value: 0.166
   toeLength:
     m_OverrideState: 1
     m_Value: 0.68
   shoulderStrength:
     m_OverrideState: 1
-    m_Value: 0.07
+    m_Value: 0.126
   shoulderLength:
     m_OverrideState: 1
     m_Value: 1.08
@@ -274,8 +274,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 300.1
   enableVolumetricFog:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   albedo:
     m_OverrideState: 1
     m_Value: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
@@ -335,10 +335,10 @@ MonoBehaviour:
   - {fileID: -7666962727445860750}
   - {fileID: -8070065255424870157}
   - {fileID: 12540512848138153}
-  - {fileID: 7588767652196480964}
   - {fileID: 552453576362409989}
   - {fileID: 6941153188095921789}
   - {fileID: 2114706907281848752}
+  - {fileID: 7322945620197503534}
 --- !u!114 &12540512848138153
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -550,7 +550,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.323
+    m_Value: 0.258
   scatter:
     m_OverrideState: 1
     m_Value: 0.25
@@ -634,20 +634,20 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   meteringMode:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 0
   luminanceSource:
     m_OverrideState: 0
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 9.467175
+    m_Value: 11.305471
   compensation:
-    m_OverrideState: 0
-    m_Value: 0.6
+    m_OverrideState: 1
+    m_Value: 2.6
   limitMin:
     m_OverrideState: 0
-    m_Value: -1
+    m_Value: -1.1276596
   limitMax:
     m_OverrideState: 0
     m_Value: 14
@@ -730,13 +730,13 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   adaptationMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   adaptationSpeedDarkToLight:
-    m_OverrideState: 0
-    m_Value: 3
+    m_OverrideState: 1
+    m_Value: 1
   adaptationSpeedLightToDark:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   weightTextureMask:
     m_OverrideState: 0
@@ -808,7 +808,7 @@ MonoBehaviour:
   opacity:
     m_OverrideState: 0
     m_Value: 1
---- !u!114 &7588767652196480964
+--- !u!114 &7322945620197503534
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -822,23 +822,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   rotation:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   skyIntensityMode:
     m_OverrideState: 0
     m_Value: 0
   exposure:
     m_OverrideState: 0
-    m_Value: 10.42
+    m_Value: 0
   multiplier:
     m_OverrideState: 0
     m_Value: 1
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 0.99373
+    m_Value: 0.67517513
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.25990054, y: 0.44283703, z: 0.5}
+    m_Value: {x: 0.22499743, y: 0.31313035, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -853,10 +853,10 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: c1473a09822798a41a9cfa11f2721db6, type: 3}
+    m_Value: {fileID: 8900000, guid: 269d44b54b3088546b975e33322cc33b, type: 3}
   distortionMode:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 1
   flowmap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -864,14 +864,14 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   scrollOrientation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value:
-      mode: 0
-      customValue: 103
+      mode: 1
+      customValue: 0
       additiveValue: 0
       multiplyValue: 1
   scrollSpeed:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       mode: 1
       customValue: 100
