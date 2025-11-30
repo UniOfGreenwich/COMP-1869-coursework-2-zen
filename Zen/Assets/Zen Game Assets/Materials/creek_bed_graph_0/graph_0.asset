@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
   m_Name: graph_0
   m_EditorClassIdentifier: 
-  AssetPath: Assets/Zen Game Assets/Materials/creek_bed.sbsar
+  AssetPath: Assets/Zen Game Assets/Materials/creek_bed_graph_0/creek_bed.sbsar
   RawData: {fileID: -244192453324840774, guid: 8cb2fa9f134f20f4098c3b1064bd6337, type: 3}
   Name: graph_0
   IsRoot: 1
@@ -139,7 +139,9 @@ MonoBehaviour:
   PhysicalSize: {x: 0, y: 0, z: 0}
   EnablePhysicalSize: 0
   Thumbnail: 
-  CurrentStatePreset: 
+  CurrentStatePreset: " <sbspreset pkgurl=\"pkg://rock_ground\" label=\"\" >\n  <presetinput
+    identifier=\"$outputsize\" uid=\"118366332\" type=\"8\" value=\"10,10\" />\n
+    </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
