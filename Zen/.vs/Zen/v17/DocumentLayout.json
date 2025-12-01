@@ -23,7 +23,8 @@
       "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\statue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\MicroStudio\\ms_Ghrystlyst\\Assets\\Scripts\\Ivan\\GameRules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|C:\\Git\\COMP-1869-coursework-2-zen\\Zen\\assets\\zen game assets\\scripts\\statue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE3EF0A-016A-3C5A-C8BC-A82C1749EC14}|Assembly-CSharp.csproj|solutionrelative:assets\\zen game assets\\scripts\\statue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|L:\\Uni\\Uni_Y3_P1\\COMP-1869-coursework-2-zen\\Zen\\Assets\\GameStates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,6 +40,10 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
