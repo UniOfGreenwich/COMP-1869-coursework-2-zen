@@ -2,3 +2,5 @@
 *.fpx filter=lfs diff=lfs merge=lfs -text
 *.mat filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+Zen/Assets/Terrain/Terrain_0_0_cb4fc99d-cb72-4508-927b-b8620c06931e.asset filter=lfs diff=lfs merge=lfs -text
