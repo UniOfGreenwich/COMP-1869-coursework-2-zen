@@ -150,7 +150,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: c3a086a2f2c13b64b86d1306b92f8ba4, type: 3}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1.5
@@ -253,6 +253,7 @@ MonoBehaviour:
   playervelocity: {x: 0, y: 0, z: 0}
   triggerPoint: {fileID: 0}
   OnWood: 0
+  Tp: {fileID: 0}
   ground1: {fileID: 8300000, guid: c3a086a2f2c13b64b86d1306b92f8ba4, type: 3}
   ground2: {fileID: 8300000, guid: a940866434298d646820cba136fd0045, type: 3}
 --- !u!1 &4336391583220784399
@@ -384,6 +385,7 @@ GameObject:
   - component: {fileID: 1849372097165629550}
   - component: {fileID: 1787474759372422325}
   - component: {fileID: 8534290178299057656}
+  - component: {fileID: 6774284275198801996}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -425,7 +427,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 25.734083
+  m_FocalLength: 21.209929
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -440,7 +442,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 10000
-  field of view: 50
+  field of view: 59
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -453,7 +455,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -485,18 +487,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 2
+  antialiasing: 1
   SMAAQuality: 2
   dithering: 1
   stopNaNs: 0
-  taaSharpenStrength: 0.5
-  TAAQuality: 1
-  taaSharpenMode: 0
+  taaSharpenStrength: 0.217
+  TAAQuality: 2
+  taaSharpenMode: 2
   taaRingingReduction: 0
-  taaHistorySharpening: 0.35
-  taaAntiFlicker: 0.5
-  taaMotionVectorRejection: 0
-  taaAntiHistoryRinging: 0
+  taaHistorySharpening: 0.165
+  taaAntiFlicker: 1
+  taaMotionVectorRejection: 0.444
+  taaAntiHistoryRinging: 1
   taaBaseBlendFactor: 0.875
   taaJitterScale: 1
   physicalParameters:
@@ -511,7 +513,7 @@ MonoBehaviour:
   flipYMode: 0
   xrRendering: 1
   fullscreenPassthrough: 0
-  allowDynamicResolution: 0
+  allowDynamicResolution: 1
   customRenderingSettings: 0
   invertFaceCulling: 0
   probeLayerMask:
@@ -605,3 +607,15 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!114 &6774284275198801996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8825246082460916760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58793d6c15befea45a97571aa08cf645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
