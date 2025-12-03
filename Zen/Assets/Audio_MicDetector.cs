@@ -83,6 +83,8 @@ public class Audio_MicDetector : MonoBehaviour
     {
         averageVol = 100f;
         WaitTimer = 4;
+        breathSlider.value = 0;
+        breethingIn = true;
         fill.color = Color.white;
     }
 }
