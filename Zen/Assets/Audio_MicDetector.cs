@@ -2,13 +2,19 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Audio_MicDetector : MonoBehaviour
 {
     AudioClip mic;
-    string device;
+    public string device;
     int window = 256;
-    public float averageWaitTimer, averageVol,framecount, vol;
+    public float WaitTimer, averageVol, framecount, vol, breethInTime;
+    public Slider breathSlider;
+    public Image fill;
+    public bool breethingIn;
+    public GameObject BreatheIN, BreatheOUT;
+
 
     void Start()
     {
@@ -17,24 +23,43 @@ public class Audio_MicDetector : MonoBehaviour
     }
     void Update()
     {
-         vol = GetVolume();
+        if (averageVol <= 0 && WaitTimer <= 0)
+        {
+            fill.color = Color.green;
+        }
+        else if (WaitTimer <= 0) { fill.color = Color.red; }
+
     }
 
     private void FixedUpdate()
     {
-        if (averageWaitTimer <= 0) 
+        if (breethingIn)
         {
-            averageVol = averageVol / framecount;
-            
-            Debug.Log((averageVol*10));
-            averageWaitTimer = 3;
-            framecount = 0;
-            vol = 0;
-        }
-        else { averageVol = averageVol + vol; framecount++; }
+            BreatheIN.SetActive(true);
+            BreatheOUT.SetActive(false);
+            breathSlider.value += breethInTime;
+            if (breathSlider.value >= 100) { breethingIn = false; }
 
-        averageWaitTimer -= Time.deltaTime;
-        
+        }
+        else
+        {
+            BreatheIN.SetActive(false);
+            BreatheOUT.SetActive(true);
+            vol = GetVolume();
+            if (vol < 0.01) { vol = 0; }
+            if (vol > 2) { vol = 2; }
+            averageVol = averageVol - vol;
+            breathSlider.value = averageVol;
+
+            WaitTimer -= Time.deltaTime;
+
+            if (WaitTimer < -5f)
+            {
+                BreatheOUT.SetActive(false);
+                BreatheIN.SetActive(false);
+                gameObject.SetActive(false);
+            }
+        }
     }
 
     float GetVolume()
@@ -52,5 +77,12 @@ public class Audio_MicDetector : MonoBehaviour
             sum += data[i] * data[i];
 
         return Mathf.Sqrt(sum / window);
+    }
+
+    private void OnDisable()
+    {
+        averageVol = 100f;
+        WaitTimer = 4;
+        fill.color = Color.white;
     }
 }

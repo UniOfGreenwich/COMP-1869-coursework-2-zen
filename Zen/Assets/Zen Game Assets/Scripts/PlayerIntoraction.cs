@@ -82,9 +82,26 @@ public class PlayerIntoraction : MonoBehaviour
         sat = true;
         GetComponent<CapsuleCollider>().enabled = false;
         GetComponent<Rigidbody>().useGravity = false;
-        yield return new WaitForSeconds(9);
+        yield return new WaitForSeconds(3);
+
 
         BreethBar.SetActive(true);
+        yield return new WaitForSeconds(9);
+        BreethBar.SetActive(false);
+    
+        yield return new WaitForSeconds(3);
+
+        BreethBar.SetActive(true);
+        yield return new WaitForSeconds(9);
+        BreethBar.SetActive(false);
+
+        yield return new WaitForSeconds(3);
+        
+        BreethBar.SetActive(true);
+        yield return new WaitForSeconds(9);
+        BreethBar.SetActive(false);
+
+        
         currentStachue.GetComponent<BoxCollider>().enabled = false;
 
         GetComponent<CapsuleCollider>().enabled = true;
@@ -94,7 +111,6 @@ public class PlayerIntoraction : MonoBehaviour
         sat = false;
 
         Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y + 0.45f, transform.position.z);
-        BreethBar.SetActive(false);
         GetComponent<playerMovment>().enabled = true;
 
         currentStachue.transform.SetParent(hand.transform);
