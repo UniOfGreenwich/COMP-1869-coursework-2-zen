@@ -13,18 +13,18 @@ ScriptedImporter:
     scaleFactor: 0.3048
   materialSettings:
     mainColor: {r: 1, g: 1, b: 1, a: 1}
-    hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    hueVariation: {r: 0.21680555, g: 0.46226418, b: 0.010902455, a: 0.1}
     alphaClipThreshold: 0.1
     transmissionScale: 0
-    enableHueVariation: 0
+    enableHueVariation: 1
     enableBumpMapping: 1
     enableSubsurfaceScattering: 1
     diffusionProfileAssetID: {x: 0, y: 0, z: 0, w: 0}
     diffusionProfileID: 0
   lightingSettings:
-    enableShadowCasting: 1
+    enableShadowCasting: 0
     enableShadowReceiving: 1
-    enableLightProbes: 1
+    enableLightProbes: 0
     reflectionProbeEnumValue: 1
   additionalSettings:
     motionVectorModeEnumValue: 1
@@ -37,9 +37,9 @@ ScriptedImporter:
     fadeOutWidth: 0.25
     hasBillboard: 0
   perLODSettings:
-  - enableSettingOverride: 0
-    height: 0.01
-    castShadows: 1
+  - enableSettingOverride: 1
+    height: 0.017960606
+    castShadows: 0
     receiveShadows: 1
     useLightProbes: 1
     reflectionProbeUsage: 1
@@ -52,4 +52,4 @@ ScriptedImporter:
     directionResponse: 2.5
     randomness: 0.5
   materialVersion: 1
-  outputImporterData: {instanceID: 0}
+  outputImporterData: {fileID: 7965120797947565359, guid: 107a160bb2e73794b8208ce0f1eb923c, type: 3}
