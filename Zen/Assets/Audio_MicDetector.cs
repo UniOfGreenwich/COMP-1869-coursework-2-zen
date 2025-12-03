@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Audio_MicDetector : MonoBehaviour
 {
     AudioClip mic;
-    string device;
+    public string device;
     int window = 256;
     public float WaitTimer, averageVol, framecount, vol, breethInTime;
     public Slider breathSlider;

@@ -277,7 +277,7 @@ RectTransform:
   m_Father: {fileID: 2901782672322500038}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1271,7 +1271,7 @@ RectTransform:
   m_Father: {fileID: 2309204462392957126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1824,7 +1824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &994666318031494969
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3325411405928970980}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -1912,14 +1912,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7492afcdefacf99449b042e8202a0ed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WaitTimer: 0
+  device: 
+  WaitTimer: 5
   averageVol: 0
   framecount: 0
   vol: 0
-  breethInTime: 0
+  breethInTime: 0.2
   breathSlider: {fileID: 6649803807551508889}
   fill: {fileID: 6887059931823091083}
-  breethingIn: 0
+  breethingIn: 1
   BreatheIN: {fileID: 5216760255769212393}
   BreatheOUT: {fileID: 8459942720809117830}
 --- !u!1 &8459942720809117830
